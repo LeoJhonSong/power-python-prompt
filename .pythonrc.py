@@ -5,6 +5,10 @@ import os
 import re
 import time
 
+
+def __len__(str):
+    return 20
+
 # colors
 OFFSET = '\033[0m'
 BLACK_FG = '\033[30m'
@@ -30,8 +34,8 @@ python_interpreter_path = '  ' + sys.executable
 local_time = ' ' + time.strftime('%H:%M:%S', time.localtime(time.time()))
 # the delimiter used at the end of a segment
 delimiter = ''
-pointer = YELLOW_FG + ' ' + OFFSET
-
+pointer = ' '
+# segments of the prompt
 prompt = [
     [BLUE_BG, WHITE_FG, python_version],
     [GREEN_BG, WHITE_FG, python_interpreter_path],

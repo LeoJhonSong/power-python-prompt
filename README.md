@@ -11,6 +11,8 @@ Inspired by the [The Interactive Startup File](https://docs.python.org/3/tutoria
 a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) is needed to display the
 awesome little icons.
 
+❗️ only **Linux** and **MacOS** are supported, Windows has not been supported.
+
 ## Installation
 
 first clone this repository and link the file `.pythonrc.py` with
